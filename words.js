@@ -1,5 +1,5 @@
 
-import {started, ended, display} from '/calculate_speed.js';
+import {started, ended, display} from './calculate_speed.js';
 let number_of_words,word_length;
 let pos = document.querySelector(".words");
 async function main( length, nums ){
