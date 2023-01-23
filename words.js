@@ -14,7 +14,7 @@ async function main( length, nums ){
         let words_array = ['',''];
         let mistake = false;
         
-        fetch('http://random-word-api.herokuapp.com/word?number='+number_of_words+'&length='+word_length)
+        fetch('https://random-word-api.herokuapp.com/word?number='+number_of_words+'&length='+word_length)
         .then(res => res.json())
         .then(data => {
         console.log(words_array = data);
