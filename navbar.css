@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.navbar{
+    margin:  0;
+    display : flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgb(240, 235, 228);
+    padding :5px;
+    padding-right : 10px;
+}
+.logo{
+    margin-left : 20px;
+    font-size: 200%;
+}
+.setting{
+    height : 20px;
+    width : 20x;
+    margin-top : 10px; 
+}

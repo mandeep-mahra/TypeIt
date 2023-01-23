@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "keyboard.css">
+    <link rel = "stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "navbar.css">
+    <link rel = "stylesheet" href = "words.css">
+    <link rel = "stylesheet" href = "speed.css">
+    <link rel = "stylesheet" href = "control.css">
+    <link rel = "stylesheet" href = "change-settings.css">
+</head>
+<body align = "center">
+   <div calss = "container">
+        <div class="navbar">
+            <div class="logo"><b>TypeIt</b></div>
+            <div class="settings">
+                <img class ="setting " src = "./settings.png"></img>
+            </div>
+        </div>
+        <div class="Display">
+            <div class="control">
+
+            </div> 
+            <div class="speed">
+                Your typing speed : ?
+                <br>
+                Your Accuracy : ?
+            </div>
+            
+        </div>
+        <div class="change_settings">
+            <input type = "text" class = "input_length" placeholder="5"></input>
+            <br><br>
+            <input type="text" class = "input_nums_words" placeholder = "10"></input>
+            <br><br>
+        </div>
+        <div class="words"></div>
+        <div class="Keyboard"></div>
+   </div> 
+   <script type = "module" src = "keyboard.js"></script>
+   <script type = "module" src = "./words.js"></script>
+   <script type = "module" src = "key_press.js"></script>
+   <script type = "module" src = "./calculate_speed.js"></script>
+   <script type = "module" src = "./settings.js"></script>
+</body>
+</html>
+
+
