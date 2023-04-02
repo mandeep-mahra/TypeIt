@@ -1,5 +1,6 @@
 
 import {started, ended, display} from './calculate_speed.js';
+import {access} from './check_access.js';
 let number_of_words,word_length;
 let pos = document.querySelector(".words");
 async function main( length, nums ){
@@ -109,3 +110,6 @@ async function main( length, nums ){
     console.log("the flow is here");
 }
 
+if(doucumen.querySelector('./flip').innerHTML == '0'){
+    access();
+}
