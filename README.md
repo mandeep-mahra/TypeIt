@@ -2,6 +2,9 @@
 
 TypeIt is a typing test platform that allows users to practice and improve their typing skills. It offers customizable settings to adjust word length and word count, and provides an interactive on-screen keyboard for convenience.
 
+![image](https://github.com/mandeep-mahra/TypeIt/assets/104967187/9d105759-923d-40fc-87cf-414e96e07e7d)
+
+
 ## Features
 
 - Typing test: Users can take timed typing tests to measure their typing speed and accuracy.
